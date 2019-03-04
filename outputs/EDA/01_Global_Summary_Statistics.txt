@@ -1,0 +1,53 @@
+﻿Skim summary statistics  
+ n obs: 199523    
+ n variables: 40    
+
+Variable type: factor
+
+|                 variable                  | missing | complete |   n    | n_unique |                   top_counts                   | ordered |
+|-------------------------------------------|---------|----------|--------|----------|------------------------------------------------|---------|
+|                citizenship                |    0    |  199523  | 199523 |    5     | Nat: 176992, For: 13401, For: 5855, Nat: 1756  |  FALSE  |
+|              class_of_worker              | 100245  |  99278   | 199523 |    8     |  NA: 100245, Pri: 72028, Sel: 8445, Loc: 7784  |  FALSE  |
+|          country_of_birth_father          |  6713   |  192810  | 199523 |    42    |  Uni: 159163, Mex: 10008, NA: 6713, Pue: 2680  |  FALSE  |
+|          country_of_birth_mother          |  6119   |  193404  | 199523 |    42    |  Uni: 160479, Mex: 9781, NA: 6119, Pue: 2473   |  FALSE  |
+|           country_of_birth_self           |  3393   |  196130  | 199523 |    42    |  Uni: 176989, Mex: 5767, NA: 3393, Pue: 1400   |  FALSE  |
+|    detailed_household_and_family_stat     |    0    |  199523  | 199523 |    38    | Hou: 53248, Chi: 50326, Spo: 41695, Non: 22213 |  FALSE  |
+|  detailed_household_summary_in_household  |    0    |  199523  | 199523 |    8     | Hou: 75475, Chi: 50426, Spo: 41709, Chi: 14430 |  FALSE  |
+|         detailed_industry_recode          |    0    |  199523  | 199523 |    52    |    0: 100684, 33: 17070, 43: 8283, 4: 5984     |  FALSE  |
+|        detailed_occupation_recode         |    0    |  199523  | 199523 |    47    |     0: 100684, 2: 8756, 26: 7887, 19: 5413     |  FALSE  |
+|                 education                 |    0    |  199523  | 199523 |    17    | Hig: 48407, Chi: 47422, Som: 27820, Bac: 19865 |  FALSE  |
+|        enroll_in_edu_inst_last_wk         | 186943  |  12580   | 199523 |    2     |        NA: 186943, Hig: 6892, Col: 5688        |  FALSE  |
+|          family_members_under_18          | 144232  |  55291   | 199523 |    4     | NA: 144232, Bot: 38983, Mot: 12772, Fat: 1883  |  FALSE  |
+| fill_inc_questionnaire_for_veterans_admin | 197539  |   1984   | 199523 |    2     |         NA: 197539, No: 1593, Yes: 391         |  FALSE  |
+|     full_or_part_time_employment_stat     |    0    |  199523  | 199523 |    8     | Chi: 123769, Ful: 40736, Not: 26808, PT : 3322 |  FALSE  |
+|              hispanic_origin              |   874   |  198649  | 199523 |    9     |  All: 171907, Mex: 8079, Mex: 7234, Cen: 3895  |  FALSE  |
+|                  income                   |    0    |  199523  | 199523 |    2     |           0: 187141, 1: 12382, NA: 0           |  FALSE  |
+|       live_in_this_house_1_year_ago       | 101212  |  98311   | 199523 |    2     |       NA: 101212, Yes: 82538, No: 15773        |  FALSE  |
+|            major_industry_code            | 100684  |  98839   | 199523 |    23    |  NA: 100684, Ret: 17070, Man: 9015, Edu: 8283  |  FALSE  |
+|           major_occupation_code           | 100684  |  98839   | 199523 |    14    | NA: 100684, Adm: 14837, Pro: 13940, Exe: 12495 |  FALSE  |
+|               marital_stat                |    0    |  199523  | 199523 |    7     | Nev: 86485, Mar: 84222, Div: 12710, Wid: 10463 |  FALSE  |
+|          member_of_a_labor_union          | 180459  |  19064   | 199523 |    2     |        NA: 180459, No: 16034, Yes: 3030        |  FALSE  |
+|       migration_code-change_in_msa        | 101642  |  97881   | 199523 |    7     | NA: 101642, Non: 82538, MSA: 10601, Non: 2811  |  FALSE  |
+|       migration_code-change_in_reg        | 101212  |  98311   | 199523 |    7     |  NA: 101212, Non: 82538, Sam: 9812, Dif: 2797  |  FALSE  |
+|      migration_code-move_within_reg       | 101212  |  98311   | 199523 |    8     |  NA: 101212, Non: 82538, Sam: 9812, Dif: 2797  |  FALSE  |
+|       migration_prev_res_in_sunbelt       | 183750  |  15773   | 199523 |    2     |        NA: 183750, No: 9987, Yes: 5786         |  FALSE  |
+|       own_business_or_self_employed       |    0    |  199523  | 199523 |    3     |      0: 180672, 2: 16153, 1: 2698, NA: 0       |  FALSE  |
+|                   race                    |    0    |  199523  | 199523 |    5     | Whi: 167365, Bla: 20415, Asi: 5835, Oth: 3657  |  FALSE  |
+|          reason_for_unemployment          | 193453  |   6070   | 199523 |    5     |   NA: 193453, Oth: 2038, Re-: 2019, Job: 976   |  FALSE  |
+|       region_of_previous_residence        | 183750  |  15773   | 199523 |    5     |  NA: 183750, Sou: 4889, Wes: 4074, Mid: 3575   |  FALSE  |
+|                    sex                    |    0    |  199523  | 199523 |    2     |         Fem: 103984, Mal: 95539, NA: 0         |  FALSE  |
+|        state_of_previous_residence        | 184458  |  15065   | 199523 |    49    |   NA: 184458, Cal: 1714, Uta: 1063, Flo: 849   |  FALSE  |
+|              tax_filer_stat               |    0    |  199523  | 199523 |    6     | Non: 75094, Joi: 67383, Sin: 37421, Joi: 8332  |  FALSE  |
+|             veterans_benefits             |    0    |  199523  | 199523 |    3     |      2: 150130, 0: 47409, 1: 1984, NA: 0       |  FALSE  |
+
+Variable type: integer
+
+|            variable             | missing | complete |   n    |  mean  |   sd    | p0 | p25 | p50 | p75 | p100  |   hist   	|
+|---------------------------------|---------|----------|--------|--------|---------|----|-----|-----|-----|-------|------------	|
+|               age               |    0    |  199523  | 199523 | 34.49  |  22.31  | 0  | 15  | 33  | 50  |  90   | ▇▆▇▇▅▃▃▁ 	|
+|          capital_gains          |    0    |  199523  | 199523 | 434.72 | 4697.53 | 0  |  0  |  0  |  0  | 99999 | ▇▁▁▁▁▁▁▁ 	|
+|         capital_losses          |    0    |  199523  | 199523 | 37.31  |  271.9  | 0  |  0  |  0  |  0  | 4608  | ▇▁▁▁▁▁▁▁ 	|
+|      dividends_from_stocks      |    0    |  199523  | 199523 | 197.53 | 1984.16 | 0  |  0  |  0  |  0  | 99999 | ▇▁▁▁▁▁▁▁ 	|
+| num_persons_worked_for_employer |    0    |  199523  | 199523 |  1.96  |  2.37   | 0  |  0  |  1  |  4  |   6   | ▇▂▁▁▁▁▁▃ 	|
+|          wage_per_hour          |    0    |  199523  | 199523 | 55.43  |  274.9  | 0  |  0  |  0  |  0  | 9999  | ▇▁▁▁▁▁▁▁ 	|
+|      weeks_worked_in_year       |    0    |  199523  | 199523 | 23.17  |  24.41  | 0  |  0  |  8  | 52  |  52   | ▇▁▁▁▁▁▁▆ 	|
