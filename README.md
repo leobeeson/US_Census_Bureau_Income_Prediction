@@ -33,4 +33,4 @@ The business success criteria for the Census Beureau deriving from this project 
 ## Project Plan
 <img src="resources/US_Census_Data.png">
 
-### [Full Report](https://leobeeson-github-objects.s3.eu-west-2.amazonaws.com/US_Census_Bureau_Income_Data.html)
+### Click [here for the full jupyter notebook in html form](https://leobeeson-github-objects.s3.eu-west-2.amazonaws.com/US_Census_Bureau_Income_Data.html)
